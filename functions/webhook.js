@@ -1,4 +1,4 @@
 export default async (req, context) => {
-    console.log(req.body);
+    console.log(await req.json());
   return new Response("Hello, world!");
 };
