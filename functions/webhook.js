@@ -1,7 +1,4 @@
-exports.handler = async (request) => {
-    console.log(await request.json());
-    return {
-      statusCode: 200,
-      body: 'Hello world!',
-    };
-  };
+export default async (req, context) => {
+    console.log(req);
+  return new Response("Hello, world!");
+};
