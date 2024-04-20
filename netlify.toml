@@ -2,7 +2,9 @@
   functions = "functions"
 
 [[redirects]]
-  from = "/*"
+  from = "/redirect"
   to = "https://7125-2a02-1811-3503-8b00-9c93-9da1-22a0-1fc4.ngrok-free.app/actions/cloudinary/notifications/process?volume=1"
+  status = 200
   force = true
-  headers = {Access-Control-Allow-Origin = "*", Access-Control-Allow-Methods = "POST", ngrok-skip-browser-warning = "6024"}
+  headers = {ngrok-skip-browser-warning = "6024"}
+
