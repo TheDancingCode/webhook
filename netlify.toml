@@ -1,6 +1,10 @@
 [build]
   functions = "functions"
 
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-store"
 
 [[redirects]]
   from = "/"
