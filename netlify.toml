@@ -1,3 +1,23 @@
 [build]
   functions = "functions"
 
+
+[[redirects]]
+  from = "/"
+  to = "/fr"
+  status = 302
+  force= true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/"
+  to = "/nl"
+  status = 302
+  force = true
+  conditions = {Language = ["nl"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
